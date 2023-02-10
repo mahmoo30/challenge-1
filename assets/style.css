@@ -1,0 +1,123 @@
+* { /* universal selector - applies properties to all components */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body { /* applies background color to body section of html */
+    background-color: #d9dcd6;
+}
+
+h1 { /* properties of h1 elements */
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+.nav { /* properties of class="nav" elements */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.nav-bar { /* properties of nav-bar elements */
+    font-size: large;
+    color: #ffffff;
+    margin: 20px;
+}
+
+span { /* positioning of nav-bar */
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside { /* properties of aside elements */
+    display: block;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;    
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+h3 { /* property of h3 elements */
+    text-align: center;
+}
+
+figcaption { /* property of caption for figure */
+    margin-bottom: 32px;
+}
+
+.logo { /* properties of class="logo" elements */
+    display: block;
+    color: #ffffff;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.cover-photo { /* cover photo properties */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content { /* main content properties */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left { /* class for float left property */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /* class for float right property */
+    float: right;
+    margin-left: 25px;
+}
+
+.content img { /* main content img properties */
+    max-height: 200px;
+}
+
+.content h2 { /* main content h2 properties*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content section { /* main content section properties */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-size: 16px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+footer { /* footer properties */
+    font-size: 20px;
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+footer h2 { /* foorter h2 properties */
+    font-size: 20px;
+}
+
+.footer { /* properties of class="footer" elements */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
